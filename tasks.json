@@ -1,0 +1,8 @@
+[
+{"id":"1", "description":"Focar no Task Tracker hoje", "status":"Todo", "createdAt":"2025-10-13T13:50:21.076937", "updatedAt":"2025-10-13T13:50:21.076961"},
+{"id":"2", "description":"Salvar no arquivo tasks.json o json criado", "status":"Todo", "createdAt":"2025-10-13T13:51:12.945943", "updatedAt":"2025-10-13T13:51:12.945950"},
+{"id":"3", "description":"Salvar no arquivo tasks.json o json criado", "status":"Todo", "createdAt":"2025-10-13T14:31:10.302442", "updatedAt":"2025-10-13T14:31:10.302452"},
+{"id":"4", "description":"Salvar no arquivo tasks.json o json criado", "status":"Todo", "createdAt":"2025-10-13T16:24:40.944750", "updatedAt":"2025-10-13T16:24:40.944754"},
+{"id":"5", "description":"Salvar no arquivo tasks.json o json criado", "status":"Todo", "createdAt":"2025-10-14T08:18:45.820139", "updatedAt":"2025-10-14T08:18:45.820143"},
+{"id":"6", "description":"Salvar no arquivo tasks.json o json criado", "status":"Todo", "createdAt":"2025-10-15T14:21:06.011814", "updatedAt":"2025-10-15T14:21:06.011818"}
+]
