@@ -71,7 +71,18 @@ public class TaskManager {
         for (Task task : tasks) {
             if (task.getId() == id) {
                 task.updateDescription(description);
+                saveTask();
             }
+        }
+    }
+
+    public void deleteTask(int id) {
+        boolean removed = tasks.removeIf(task -> task.getId() == id);
+        if (removed) {
+            saveTask();
+            System.out.println("Task with id " + id + " removed.");
+        } else {
+            System.out.println("Task with id " + id + " not found.");
         }
     }
 

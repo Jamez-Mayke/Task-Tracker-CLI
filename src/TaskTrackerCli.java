@@ -31,6 +31,14 @@ public class TaskTrackerCli {
                 String newDescription = args[2];
                 taskManager.updateTask(id, newDescription);
                 break;
+            case "delete":
+                if (args.length < 2) {
+                    System.out.println("Use: TaskTrackerCli delete <id>");
+                    break;
+                }
+                int idTask = Integer.parseInt(args[1]);
+                taskManager.deleteTask(idTask);
+                break;
             default:
                 System.out.println("Comando desconhecido: " + commando);
 
