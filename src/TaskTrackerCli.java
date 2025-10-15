@@ -22,6 +22,15 @@ public class TaskTrackerCli {
                 System.out.println("Listando tasks...");
                 System.out.println(taskManager.listTasks());
                 break;
+            case "update":
+                if (args.length < 2) {
+                    System.out.println("Uso: TaskTrackerCli update <id> <new description>");
+                    break;
+                }
+                int id = Integer.parseInt(args[1]);
+                String newDescription = args[2];
+                taskManager.updateTask(id, newDescription);
+                break;
             default:
                 System.out.println("Comando desconhecido: " + commando);
 

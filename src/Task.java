@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class Task {
     private static int lastId = 0;
     private int id;
-    private final String description;
+    private String description;
     private Status status;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
@@ -52,6 +52,11 @@ public class Task {
         }
 
         return task;
+    }
+
+    public void updateDescription(String description) {
+        this.description = description;
+        this.updatedAt = LocalDateTime.now();
     }
 
     @Override
