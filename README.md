@@ -118,6 +118,6 @@ Esse arquivo armazena todas as informações de forma persistente, mesmo após f
 
 Sempre que alterar qualquer arquivo .java, recompilar antes de executar novamente:
 ```bash
-javac *.java
+javac src/*.java
 ```
 
