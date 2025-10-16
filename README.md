@@ -1,7 +1,8 @@
 # 📝 Task Tracker CLI
 
-O **Task Tracker CLI** é uma aplicação simples de linha de comando desenvolvida em **Java**, criada para gerenciar tarefas de forma prática e rápida.  
-Com ela, é possível adicionar, listar, atualizar, remover e alterar o status de tarefas diretamente pelo terminal.
+O **Task Tracker CLI** é uma aplicação de linha de comando desenvolvida em **Java**, criada para gerenciar tarefas de forma prática e rápida. Com ele, é possível adicionar, listar, atualizar, remover e alterar o status de tarefas diretamente pelo terminal.
+
+É um projeto da trilha Back-end do site: [roadmap.sh](https://roadmap.sh/projects/task-tracker).
 
 ---
 
@@ -120,4 +121,3 @@ Sempre que alterar qualquer arquivo .java, recompilar antes de executar novament
 ```bash
 javac src/*.java
 ```
-
