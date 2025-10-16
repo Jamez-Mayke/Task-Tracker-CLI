@@ -59,6 +59,16 @@ public class Task {
         this.updatedAt = LocalDateTime.now();
     }
 
+    public void markInProgress() {
+        this.status = Status.IN_PROGRESS;
+        this.updatedAt = LocalDateTime.now();
+    }
+
+    public void markDone() {
+        this.status = Status.DONE;
+        this.updatedAt = LocalDateTime.now();
+    }
+
     @Override
     public String toString() {
         return "{" +

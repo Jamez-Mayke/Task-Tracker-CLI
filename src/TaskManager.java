@@ -86,6 +86,24 @@ public class TaskManager {
         }
     }
 
+    public void markInProgress(String id) {
+        for (Task task : tasks) {
+            if (task.getId() == Integer.parseInt(id)) {
+                task.markInProgress();
+                saveTask();
+            }
+        }
+    }
+
+    public void markDone(String id) {
+        for (Task task : tasks) {
+            if (task.getId() == Integer.parseInt(id)) {
+                task.markDone();
+                saveTask();
+            }
+        }
+    }
+
     public List<Task> listTasks() {
         return tasks;
     }

@@ -39,6 +39,22 @@ public class TaskTrackerCli {
                 int idTask = Integer.parseInt(args[1]);
                 taskManager.deleteTask(idTask);
                 break;
+            case "mark-in-progress":
+                if (args.length < 2) {
+                    System.out.println("Uso: TaskTrackerCli mark-in-progress <id>");
+                    break;
+                }
+
+                taskManager.markInProgress(args[1]);
+
+                break;
+            case "done":
+                if (args.length < 2) {
+                    System.out.println("Uso: TaskTrackerCli done <id>");
+                    break;
+                }
+                taskManager.markDone(args[1]);
+                break;
             default:
                 System.out.println("Comando desconhecido: " + commando);
 
